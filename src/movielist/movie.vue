@@ -4,11 +4,8 @@ import { ref } from 'vue'
 // `https://www.omdbapi.com/?s=${ movie }&apikey=cb436718`
 // 存放查詢資料的空間
 const movie = ref('')
-const movies = ref([])
 // ============== 放置查到的資料內容 ==============
-const MovieName = ref('')
-const MovieImg = ref('')
-const MovieYear = ref('')
+const movies = ref([])
 // =============================================
 const onSearch = async () => {
   try {

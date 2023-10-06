@@ -15,7 +15,7 @@ function addTodo() {
   todos.value.push({ id: id++, text: newTodo.value })
   newTodo.value = ''
 }
-
+// 全部資料.filter(d=>d!==要刪除的資料)
 function removeTodo(todo) {
   todos.value = todos.value.filter((a) => a !== todo)
 }

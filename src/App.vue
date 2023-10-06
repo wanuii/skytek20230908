@@ -3,10 +3,11 @@ import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import Todo from './todolist/todolist.vue'
 import Movie from './movielist/movie.vue'
+import Turnbg from './turnbg/turnbg.vue'
 </script>
 
 <template>
-  <Movie />
+  <Turnbg />
 </template>
 
 <style scoped>

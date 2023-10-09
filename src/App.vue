@@ -7,7 +7,7 @@ import Turnbg from './turnbg/turnbg.vue'
 </script>
 
 <template>
-  <Turnbg />
+  <Movie />
 </template>
 
 <style scoped>
